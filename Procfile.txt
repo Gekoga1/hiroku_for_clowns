@@ -1,1 +1,1 @@
-web: python guess_city.py
+web: python guess_city.py --bind 0.0.0.0:$PORT guess_city:app
